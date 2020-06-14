@@ -1009,8 +1009,13 @@ section#details {
   section#content .container .row .col-md-9 .card img {
     height: 274.6px !important;
   }
+  section#content .container .row .col-md-9 .card .card-body {
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
   section#content .container .row .col-md-9 .card .card-body h3.card-title {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
     margin-bottom: 10px !important;
   }
   section#content .container .row .col-md-9 .card .card-body p.card-text {
