@@ -655,6 +655,10 @@ section#actions {
 section#actions a {
   color: #fcfcfc;
 }
+section#actions a.btn-dark {
+  background: #0c2633;
+  border-color: #0c2633;
+}
 
 section#posts {
   padding: 24px 0;
