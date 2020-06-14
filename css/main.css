@@ -974,17 +974,25 @@ section#details {
   section#content .container .row .col-md-9 .card img {
     height: 274.6px !important;
   }
+  section#content .container .row .col-md-9 .card .card-body {
+    padding-top: 15px !important;
+    padding-right: 5px !important;
+  }
   section#content .container .row .col-md-9 .card .card-body h3.card-title {
-    font-size: 1.3rem !important;
-    margin-bottom: 10px !important;
+    font-size: 1.2rem !important;
+    margin-bottom: 5px !important;
   }
   section#content .container .row .col-md-9 .card .card-body p.card-text {
     font-size: 0.9rem !important;
+    margin: 0 !important;
   }
   section#content .container .row .col-md-9 .card .card-body .details {
     position: absolute;
     bottom: 3%;
     font-size: 0.9rem !important;
+  }
+  section#content .container .row .col-md-9 .card .card-body .details i {
+    margin: 0 0 20px 0 !important;
   }
   section#content .container .row .col-md-9 .card .card-body .details a.btn {
     padding: 0.35rem 0.35rem !important;
