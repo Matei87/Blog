@@ -743,8 +743,20 @@ section#users {
   padding: 24px 0;
   margin: 30px 0;
 }
-section#users table {
+section#users .container .row .col .card table {
+  color: #0b1f2c;
   margin: 0;
+}
+section#users .container .row .col .card table thead {
+  background: #0c2633;
+  color: #fcfcfc;
+}
+section#users .container .row .col .card table thead th {
+  border-color: #0c2633;
+}
+section#users .container .row .col .card table tbody tr td a {
+  background: #656B6F !important;
+  border-color: #656B6F !important;
 }
 
 /* --------------------------------
