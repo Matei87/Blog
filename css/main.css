@@ -898,8 +898,8 @@ section#details {
     padding: 10px 5px 5px 10px;
   }
   section#content .container .row .col-md-9 .card .card-body h3.card-title {
-    font-size: 0.95rem !important;
-    margin-bottom: 10px !important;
+    font-size: 1rem !important;
+    margin-bottom: 5px !important;
   }
   section#content .container .row .col-md-9 .card .card-body p.card-text {
     font-size: 0.8rem !important;
