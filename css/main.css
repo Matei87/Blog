@@ -895,10 +895,10 @@ section#details {
     height: 274.6px !important;
   }
   section#content .container .row .col-md-9 .card .card-body {
-    padding-left: 15px;
+    padding: 10px 5px 5px 10px;
   }
   section#content .container .row .col-md-9 .card .card-body h3.card-title {
-    font-size: 1.1rem !important;
+    font-size: 0.95rem !important;
     margin-bottom: 10px !important;
   }
   section#content .container .row .col-md-9 .card .card-body p.card-text {
@@ -907,14 +907,16 @@ section#details {
   section#content .container .row .col-md-9 .card .card-body .details {
     position: absolute;
     bottom: 3%;
-    font-size: 0.8rem !important;
+    font-size: 0.75rem !important;
   }
   section#content .container .row .col-md-9 .card .card-body .details i {
-    display: inline;
+    display: block;
+    margin: 0;
   }
   section#content .container .row .col-md-9 .card .card-body .details a.btn {
-    padding: 0.35rem 0.35rem !important;
+    padding: 0.3rem 0.3rem !important;
     margin-top: 10px !important;
+    margin-left: 0;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
