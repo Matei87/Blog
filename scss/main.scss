@@ -1087,17 +1087,18 @@ section#details {
             }
 
             .card-body {
+              padding-top: 15px !important; padding-right: 5px !important;
               h3.card-title {
-                font-size: 1.3rem !important; margin-bottom: 10px !important;
+                font-size: 1.2rem !important; margin-bottom: 5px !important;
               }
               p.card-text {
-                font-size: .9rem !important;
+                font-size: .9rem !important; margin: 0 !important;
               }
               .details {
                 position: absolute; bottom: 3%;
                 font-size: .9rem !important;
                 i {
-
+                margin: 0 0 20px 0 !important;
                 }
                 a.btn {
                   padding: .35rem .35rem !important;
@@ -1138,8 +1139,10 @@ section#details {
             }
 
             .card-body {
+              padding-top: 10px !important; padding-right: 10px !important;
+              padding-left: 10px !important;
               h3.card-title {
-                font-size: 1.3rem !important; margin-bottom: 10px !important;
+                font-size: 1.2rem !important; margin-bottom: 10px !important;
               }
               p.card-text {
                 font-size: .9rem !important;
