@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- SHORTCUT ICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/blog-icon.png">
+    <!-- TITLE -->
+    <title>BlogBoy</title>
+    <!-- STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark" id="nav-dashboard">
+    <div class="container">
+
+        <a href="index.html" class="navbar-brand"><span>Blog</span><span>Boy</span></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="posts.html">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="categories.html">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="users.html">Users</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown mr-3">
+                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-user"></i> Welcome Admin
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="profile.html" class="dropdown-item">
+                            <i class="fas fa-user-circle"></i> Profile
+                        </a>
+                        <a href="settings.html" class="dropdown-item">
+                            <i class="fas fa-user-cog"></i> Settings
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header id="main-header" class="bg-success">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1><i class="fas fa-folder"></i> Categories</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- SEARCH -->
+<section id="search">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Categories...">
+                    <div class="input-group-append">
+                        <button class="btn btn-success">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- CATEGORIES -->
+<section id="categories">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Latest Categories</h4>
+                    </div>
+                    <table class="table table-striped table-hover">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Web Development</td>
+                            <td>April 1 2020</td>
+                            <td>
+                                <a href="details.html" class="btn btn-secondary">
+                                    <i class="fas fa-angle-double-right"></i> Details
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Tech Gadgets</td>
+                            <td>April 23 2020</td>
+                            <td>
+                                <a href="details.html" class="btn btn-secondary">
+                                    <i class="fas fa-angle-double-right"></i> Details
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Health & Wellness</td>
+                            <td>May 25 2020</td>
+                            <td>
+                                <a href="details.html" class="btn btn-secondary">
+                                    <i class="fas fa-angle-double-right"></i> Details
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Business</td>
+                            <td>May 26 2020</td>
+                            <td>
+                                <a href="details.html" class="btn btn-secondary">
+                                    <i class="fas fa-angle-double-right"></i> Details
+                                </a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>Copyright &copy;<span id="year"></span>&nbsp; Matei Mircea</p>
+</footer>
+
+<script src="src/jquery.min.js"></script>
+<script src="src/popper.min.js"></script>
+<script src="src/bootstrap.min.js"></script>
+<script>
+    $('#year').text(new Date().getFullYear());
+</script>
+</body>
+</html>
