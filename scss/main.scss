@@ -623,8 +623,12 @@ section#actions {
   padding: 24px 0;
   margin-bottom: 24px;
   background: $background;
-  a{
+  a {
     color: $white;
+  }
+   a.btn-dark {
+    background: $black;
+    border-color: $black;
   }
 }
 
