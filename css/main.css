@@ -701,9 +701,12 @@ section#post-page .container .row .col .card table {
   color: #0b1f2c;
   margin: 0;
 }
-section#post-page .container .row .col .card table thead tr {
+section#post-page .container .row .col .card table thead {
   background: #0c2633;
   color: #fcfcfc;
+}
+section#post-page .container .row .col .card table thead th {
+  border-color: #0c2633;
 }
 section#post-page .container .row .col .card table tbody tr td a {
   background: #656B6F !important;
@@ -717,8 +720,20 @@ section#categories {
   padding: 24px 0;
   margin: 30px 0;
 }
-section#categories table {
+section#categories .container .row .col .card table {
+  color: #0b1f2c;
   margin: 0;
+}
+section#categories .container .row .col .card table thead {
+  background: #0c2633;
+  color: #fcfcfc;
+}
+section#categories .container .row .col .card table thead th {
+  border-color: #0c2633;
+}
+section#categories .container .row .col .card table tbody tr td a {
+  background: #656B6F !important;
+  border-color: #656B6F !important;
 }
 
 /* --------------------------------
