@@ -715,9 +715,10 @@ section#post-page {
 
           table {
             color: $blackText; margin: 0;
-            thead {
-              tr {
-                background: $black; color: $white;
+             thead {
+              background: $black;  color: $white;
+              th {
+                border-color: $black;
               }
             }
             tbody {
