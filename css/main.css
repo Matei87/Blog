@@ -806,8 +806,7 @@ section#details {
     font-size: 0.7rem;
   }
   #posts .col-md-9 {
-    padding-bottom: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
   }
   #posts .col-md-9 table tbody tr td:last-of-type {
     padding: 0.6rem;
