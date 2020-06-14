@@ -145,6 +145,7 @@ section#slider {
               .info {
                 height: 150px; background: rgba(0, 0, 0, .05);
                 padding-left: 5px; border-radius: 0 0 5px 5px;
+                position: relative;
                 h4 {
                   padding-top: 10px; padding-left: 5px;
                   &:hover{
