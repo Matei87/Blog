@@ -305,7 +305,7 @@ section#about .container .row {
   align-items: center;
 }
 section#about .container .row .col-md-10 {
-  margin: 0;
+  margin: 0 15px;
   background: rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   padding: 30px 15px;
