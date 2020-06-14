@@ -153,6 +153,7 @@ section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.
   background: rgba(0, 0, 0, 0.05);
   padding-left: 5px;
   border-radius: 0 0 5px 5px;
+  position: relative;
 }
 section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.post .info h4 {
   padding-top: 10px;
