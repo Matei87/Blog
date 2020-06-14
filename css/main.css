@@ -139,7 +139,6 @@ section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.
   height: 350px;
   display: flex;
   justify-content: center;
-  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
   padding: 0;
 }
 section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.post img {
@@ -150,25 +149,27 @@ section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.
   height: 200px;
 }
 section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.post .info {
-  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
   height: 150px;
   background: rgba(0, 0, 0, 0.05);
   padding-left: 5px;
   border-radius: 0 0 5px 5px;
 }
 section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.post .info h4 {
-  padding-top: 20px;
-  padding-left: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
 }
 section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.post .info h4:hover {
   color: #656B6F;
 }
 section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.post .info i.fas {
+  position: absolute;
+  bottom: 15%;
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 5px;
 }
 section#slider .post-slider .autoplay .slick-list .slick-track .slick-slide div.post .info i.fas:last-of-type {
-  padding-left: 10px;
+  position: absolute;
+  left: 45%;
 }
 
 /* CONTENT */
