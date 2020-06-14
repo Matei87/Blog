@@ -997,6 +997,9 @@ section#details {
   section#content .container .row .col-md-9 .card .card-body .details a.btn {
     padding: 0.35rem 0.35rem !important;
   }
+  #posts .container .row .col-md-9 {
+    margin-bottom: 16px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   section#slider .post-slider .autoplay button.slick-prev {
