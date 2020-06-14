@@ -639,8 +639,9 @@ section#posts {
           table {
             color: $blackText; margin: 0;
             thead {
-              tr {
-                background: $black; color: $white;
+              background: $black; color: $white;
+              th {
+                border-color: $black;
               }
             }
             tbody {
