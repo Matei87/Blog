@@ -664,9 +664,12 @@ section#posts .container .row .col-md-9 .card table {
   color: #0b1f2c;
   margin: 0;
 }
-section#posts .container .row .col-md-9 .card table thead tr {
+section#posts .container .row .col-md-9 .card table thead {
   background: #0c2633;
   color: #fcfcfc;
+}
+section#posts .container .row .col-md-9 .card table thead th {
+  border-color: #0c2633;
 }
 section#posts .container .row .col-md-9 .card table tbody tr td a {
   background: #656B6F !important;
