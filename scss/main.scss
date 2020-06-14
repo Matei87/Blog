@@ -280,7 +280,7 @@ section#about {
       margin: 0; padding: 0;
       display: flex; justify-content: center; align-items: center;
       .col-md-10 {
-        margin: 0;  background: $background;
+        background: $background; margin: 0 15px;
         border-radius: 5px; padding: 30px 15px;
         h1.about-title {
           text-align: center; padding-bottom: 30px;
