@@ -1,4 +1,4 @@
 # Blog
 
 A responsive Blog theme with admin page. 
-I`ve used HTML/Bootstrap/SASS
+I used HTML/Bootstrap/SASS
