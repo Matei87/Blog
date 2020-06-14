@@ -980,21 +980,22 @@ section#details {
             }
 
             .card-body {
-              padding-left: 15px;
+              padding: 10px 5px 5px 10px;
               h3.card-title {
-                font-size: 1.1rem !important; margin-bottom: 10px !important;
+                font-size: .95rem !important; margin-bottom: 10px !important;
               }
               p.card-text {
                 font-size: .8rem !important;
               }
               .details {
                 position: absolute; bottom: 3%;
-                font-size: .8rem !important;
+                font-size: .75rem !important;
                 i {
-                  display: inline;
+                  display: block; margin: 0;
                 }
                 a.btn {
-                  padding: .35rem .35rem !important; margin-top: 10px !important;
+                  padding: .3rem .3rem !important;
+                  margin-top: 10px !important;  margin-left: 0;
                 }
               }
             }
