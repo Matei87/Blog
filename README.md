@@ -1,5 +1,5 @@
 # Blog
 
-A responsive Blog theme with admin page.
+A responsive Bootstrap Blog theme with admin page.
 
 I`ve used HTML/Bootstrap/SASS
