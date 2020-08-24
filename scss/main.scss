@@ -1130,12 +1130,12 @@ section#details {
       h2 {
         margin-top: 20px !important;
       }
-      .popular-posts {
+     .popular-posts {
         ul {
           li.posts {
-            padding: 20px 0 50px 0 !important;
-            span {
-              position: relative; top: 20px;
+            display: flex;
+            a {
+              display: flex; align-items: center;
             }
           }
         }
