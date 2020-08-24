@@ -955,13 +955,13 @@ section#details {
         }
       }
     }
-    .col-md-3 {
+     .col-md-3 {
       .popular-posts {
         ul {
           li.posts {
-            padding: 20px 0 50px 0 !important;
-            span {
-              position: relative; top: 20px;
+            display: flex;
+            a {
+              display: flex; align-items: center;
             }
           }
         }
