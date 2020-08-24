@@ -1112,6 +1112,25 @@ section#details {
     }
   }
   
+    section#article {
+    .col-md-3 {
+      padding: 0;
+      h2 {
+        margin-top: 20px !important;
+      }
+      .popular-posts {
+        ul {
+          li.posts {
+            padding: 20px 0 50px 0 !important;
+            span {
+              position: relative; top: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
   #posts .container .row .col-md-9 {
     margin-bottom: 30px;
   }
