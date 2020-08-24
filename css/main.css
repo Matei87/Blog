@@ -881,7 +881,14 @@ section#details {
     top: 0;
     right: 0;
   }
-
+  section#article .col-md-3 .popular-posts ul li.posts {
+    padding: 20px 0 50px 0 !important;
+  }
+  section#article .col-md-3 .popular-posts ul li.posts span {
+    position: relative;
+    top: 20px;
+  }
+  
   section#slider .post-slider .autoplay button.slick-prev {
     left: -10px !important;
     z-index: 10 !important;
