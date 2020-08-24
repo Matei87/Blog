@@ -882,11 +882,11 @@ section#details {
     right: 0;
   }
   section#article .col-md-3 .popular-posts ul li.posts {
-    padding: 20px 0 50px 0 !important;
+    display: flex;
   }
-  section#article .col-md-3 .popular-posts ul li.posts span {
-    position: relative;
-    top: 20px;
+  section#article .col-md-3 .popular-posts ul li.posts a {
+    display: flex;
+    align-items: center;
   }
   
   section#slider .post-slider .autoplay button.slick-prev {
