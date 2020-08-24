@@ -864,7 +864,7 @@ section#details {
 
   section#article .col-md-9 {
     padding-bottom: 24px;
-    margin-bottom: 30px;
+    margin: 0 15px 30px 15px;
   }
   section#article .col-md-9 .credentials {
     font-size: 0.85rem;
