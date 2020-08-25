@@ -354,6 +354,9 @@ section#article .container .row .col-md-9 {
   background: rgba(0, 0, 0, 0.05);
   border-radius: 5px;
 }
+section#article .container .row .col-md-9 h1.title {
+  margin-top: 15px;
+}
 section#article .container .row .col-md-9 div.image {
   height: 275px;
   width: inherit;
