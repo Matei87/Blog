@@ -869,6 +869,12 @@ section#details {
     padding-bottom: 24px;
     margin: 0 15px 30px 15px;
   }
+    section#article .col-md-9 h1 {
+    font-size: 1.5rem;
+  }
+  section#article .col-md-9 .paragraphs p {
+    font-size: 1rem !important;
+  }
   section#article .col-md-9 .credentials {
     font-size: 0.75rem;
   }
