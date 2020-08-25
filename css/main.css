@@ -938,6 +938,9 @@ section#details {
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+   .navbar-expand-sm .navbar-nav .nav-link {
+    padding: 0;
+  }
   #nav-dashboard {
     display: flex;
     justify-content: center;
