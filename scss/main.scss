@@ -953,6 +953,11 @@ section#details {
             position: absolute; top: 0; right: 0;
           }
         }
+        .comment-user1, .comment-user2 {
+          span {
+            font-size: .9rem;
+          }
+        }
       }
     }
      .col-md-3 {
