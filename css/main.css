@@ -881,6 +881,9 @@ section#details {
     top: 0;
     right: 0;
   }
+   section#article .col-md-9 .comments .comment-user1 span, section#article .col-md-9 .comments .comment-user2 span {
+    font-size: 0.9rem;
+  }
   section#article .col-md-3 .popular-posts ul li.posts {
     display: flex;
   }
