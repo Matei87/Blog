@@ -939,6 +939,14 @@ section#details {
     .col-md-9 {
       padding-bottom: 24px;
       margin: 0 15px 30px 15px;
+      h1 {
+        font-size: 1.5rem;
+      }
+      .paragraphs {
+        p {
+          font-size: 1rem !important;
+        }
+      }
       .credentials {
         font-size: .75rem;
       }
