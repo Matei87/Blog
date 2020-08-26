@@ -1,5 +1,10 @@
 # BlogBoy
 
-A responsive Bootstrap Blog theme with admin page.
+BlogBoy is a responsive Bootstrap Blog theme with admin page.
 
+#Built With
+
+* HTML5
+* Bootstrap 4
+* SASS
 I`ve used HTML/Bootstrap/SASS
